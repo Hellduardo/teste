@@ -1,0 +1,35 @@
+programa {
+    inclua biblioteca Util
+	funcao inicio() {
+		inteiro ini, fim, soma = 0
+		
+		escreva("Bem vindo ao Show do Intervalo!")
+		escreva("\nEscolha o número inicial: ")
+		leia(ini)
+		escreva("\nVocê quer iniciar com: ", ini)
+		
+		escreva("\nAgora escolha o final: ")
+		leia(fim)
+		escreva("\nVocê terminou com: ", fim)
+		
+		escreva("\nVamos começar o Show do Intervalo!")
+		
+	enquanto (ini <= fim){
+	    
+	    escreva("\nComeçou com: ", ini)
+	    limpa()
+	    
+	    soma = soma + ini
+	    ini = ini +1
+	    
+	    escreva("\nAgora: ", ini, "+", ini)
+	    
+	    escreva("\nO Resultado é: ", soma)
+	    Util.aguarde(1500)
+	    
+	    
+	    } 
+		
+		
+	}
+}
