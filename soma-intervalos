@@ -17,7 +17,7 @@ programa {
 	enquanto (ini <= fim){
 	    
 	    escreva("\nComeçou com: ", ini)
-	    limpa()
+	
 	    
 	    soma = soma + ini
 	    ini = ini +1
