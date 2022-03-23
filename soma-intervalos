@@ -11,18 +11,17 @@ programa {
 		escreva("\nAgora escolha o final: ")
 		leia(fim)
 		escreva("\nVocê terminou com: ", fim)
-		
+		limpa()
 		escreva("\nVamos começar o Show do Intervalo!")
 		
 	enquanto (ini <= fim){
 	    
 	    escreva("\nComeçou com: ", ini)
-	
 	    
-	    soma = soma + ini
-	    ini = ini +1
+	    escreva("\nAgora: ", ini, "+", soma)
 	    
-	    escreva("\nAgora: ", ini, "+", ini)
+	    soma = ini + soma
+	    ini = ini + ini
 	    
 	    escreva("\nO Resultado é: ", soma)
 	    Util.aguarde(1500)
