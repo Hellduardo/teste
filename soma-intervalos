@@ -21,7 +21,7 @@ programa {
 	    escreva("\nAgora: ", ini, "+", soma)
 	    
 	    soma = ini + soma
-	    ini = ini + ini
+	    ini = ini + 1
 	    
 	    escreva("\nO Resultado é: ", soma)
 	    Util.aguarde(1500)
